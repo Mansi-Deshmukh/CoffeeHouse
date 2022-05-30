@@ -1,0 +1,23 @@
+#bucket{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 45px;
+    margin: 30px;
+}
+#bucket img{
+    height: 200px;
+    width: 210px;
+}
+#total_amount{
+    padding: 10px;
+}
+#bucket div{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+#bucket button{
+    color: rgb(91, 27, 101);
+    padding: 5px 10px 5px 10px;
+}
